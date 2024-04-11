@@ -7,7 +7,7 @@
 		"test": "eslint . && mocha -t 5000",
 		"fetch": "node lib/fetch.js",
 		"format": "node lib/build.js",
-		"fetch:dist": "node lib/fetch-dist.js"
+		"format:map": "node lib/format2map.js"
 	},
 	"keywords": [],
 	"author": "klisit",
